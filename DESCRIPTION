@@ -1,0 +1,26 @@
+Package: demopkg
+Title: A Demo Package for Demonstrating R Packages
+Version: 0.0.1
+Authors@R: 
+    person(given = "Robert",
+           family = "Cline, Sr.",
+           role = c("aut", "cre"),
+           email = "rccline@fastmail.fm")
+Description: A system for 'declaratively' exploring R functions.  You provide the data, give 'demopkg' the nubmers.  demppkg does the rest,.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports: 
+    dplyr,
+    ggplot2,
+    magrittr,
+    tibble
+Suggests: 
+    readr,
+    knitr,
+    rmarkdown
+Depends: 
+    R (>= 2.10)
+VignetteBuilder: knitr
